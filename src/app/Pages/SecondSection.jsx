@@ -26,7 +26,7 @@ function SecondSection() {
         >
           <div className="space-y-4">
             <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-xs font-bold tracking-wider uppercase text-[#27187e]">
-              Why Vaidya 247
+              Why BASIC
             </span>
             <h2 className="text-3xl md:text-5xl font-bold leading-[1.1] tracking-tight text-[#ff8600]">
               A structured, transparent way to manage duties

@@ -24,9 +24,9 @@ export default function Footer() {
             className="flex items-center justify-center rounded-lg p-1 hover:bg-slate-100 transition-colors"
           >
             <img
-              src="/IM/vaidya icon.png"
-              alt="Vaidya Logo"
-              className="w-6 h-6 object-contain"
+              src="/IM/10 Artboard 2.png"
+              alt="BASIC Logo"
+              className="w-15 h-15 object-contain"
             />
           </Link>
 

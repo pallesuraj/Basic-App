@@ -7,10 +7,10 @@ export async function POST(req) {
     const { fullName, email, company, budget, message } = await req.json();
 
     await resend.emails.send({
-      from: "VAIDYA 247 <onboarding@resend.dev>", // ✅ must be verified
+      from: "BASIC <onboarding@resend.dev>", // ✅ must be verified
       to: ["mrvijaykumar.in@gmail.com"], // your inbox
       replyTo: email, // ✅ USER EMAIL HERE
-      subject: `New VAIDYA 247 Submission`,
+      subject: `New BASIC Submission`,
       text: `
 Name: ${fullName}
 Email: ${email}

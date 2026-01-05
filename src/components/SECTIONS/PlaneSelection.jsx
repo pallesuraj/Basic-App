@@ -605,7 +605,7 @@ export default function PlaneSelection() {
                   <div className="space-y-4">
                     <p className="text-xs text-slate-500 leading-relaxed">
                       I understand that final pricing, discounts, and add-ons
-                      will be confirmed by the VAIDYA 247 team before
+                      will be confirmed by the BASIC team before
                       activation.
                     </p>
 

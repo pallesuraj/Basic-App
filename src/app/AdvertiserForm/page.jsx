@@ -494,7 +494,7 @@ export default function AdvertiserForm() {
                   className="w-4 h-4 mt-1 rounded border-slate-300 text-[#27187e] focus:ring-[#27187e]"
                 />
                 <span className="text-xs text-slate-600 group-hover:text-slate-900 leading-relaxed">
-                  I agree to the VAIDYA 247 ad policy and Terms & Conditions.
+                  I agree to the BASIC ad policy and Terms & Conditions.
                 </span>
               </label>
             </div>

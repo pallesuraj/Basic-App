@@ -1,44 +1,43 @@
-// Header.jsx
 "use client";
+
 import Link from "next/link";
-import React from "react";
+import Image from "next/image";
 
 export default function Header() {
   return (
-    <nav className="flex items-center justify-between text-black px-4 md:px-6 py-4 max-w-7xl mx-auto w-full relative z-20">
-      {/* Left Logo + Title */}
-      <Link href="/">
-        <div className="flex items-center gap-3 cursor-pointer">
-          <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
-            <img
-              src="/im/vaidya icon.png"
-              alt="Site Icon"
-              className="w-8 h-8 object-contain"
-            />
-          </div>
-
-          <div className="flex flex-col leading-tight">
-            <span className="text-lg md:text-xl font-bold tracking-tight">
-              VAIDYA 247
-            </span>
-            <span className="text-xs md:text-sm font-medium opacity-80 -mt-1">
-              Yesca Technologies
-            </span>
-          </div>
-        </div>
-      </Link>
-
-      {/* Right Buttons */}
-      <div className="flex items-center gap-4">
-        <Link href="/Adds">
-          <button
-            className="text-white px-4 md:px-6 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform duration-300 shadow-lg shadow-black/20"
-            style={{ backgroundColor: "#27187e" }}
-          >
-            Get in Touch
-          </button>
+    <header className="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b border-slate-100">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        
+        {/* Logo */}
+        <Link
+          href="/"
+          className="flex items-center gap-2 font-semibold text-slate-900"
+        >
+          <Image
+            src="/IM/10 Artboard 2.png"     // 👈 your uploaded logo
+            alt="BASIC Logo"
+            width={100}
+            height={100}
+            className="rounded-md"
+            priority
+          />
+          {/*<span className="text-lg">BASIC</span>*/}
         </Link>
+
+        {/* Right actions */}
+        <div className="flex items-center gap-4">
+          <span className="hidden sm:block text-sm font-medium text-slate-500">
+            For Churches
+          </span>
+
+          <Link
+            href="/contact"
+            className="px-5 py-2 rounded-full text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition"
+          >
+            Get notified
+          </Link>
+        </div>
       </div>
-    </nav>
+    </header>
   );
 }

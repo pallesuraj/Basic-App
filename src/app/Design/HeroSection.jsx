@@ -41,7 +41,7 @@ export default function HeroSection() {
               className="w-8 h-8 object-contain"
             />
           </div>
-          <span className="text-xl font-bold tracking-tight">VAIDYA 247</span>
+          <span className="text-xl font-bold tracking-tight">BASIC</span>
         </div>
         <button
           onClick={() =>
