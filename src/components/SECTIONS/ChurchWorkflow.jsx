@@ -25,7 +25,7 @@ export default function ChurchWorkflow() {
   ];
 
   return (
-    <section className="relative bg-[#f7f9ff] py-10 overflow-hidden">
+    <section className="relative bg-[#ffffff] py-10 overflow-hidden">
       {/* Soft background glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-50/40 to-transparent pointer-events-none" />
 

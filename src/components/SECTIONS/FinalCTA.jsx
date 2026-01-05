@@ -2,7 +2,7 @@
 
 export default function FinalCTA() {
   return (
-    <section className="relative bg-[#f7f9ff] py-24">
+    <section className="relative bg-[#ffffff] py-24">
       <div className="max-w-7xl mx-auto px-6">
         {/* Gradient Card */}
         <div

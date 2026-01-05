@@ -15,7 +15,7 @@ export async function POST(req) {
 
     const targetAudience = JSON.parse(formData.get("targetAudience") || "[]");
     const geography = formData.get("geography");
-    const startDate = formData.get("startDate");
+    const startDate = formData.get("startDate");  
     const endDate = formData.get("endDate");
 
     const headline = formData.get("headline");

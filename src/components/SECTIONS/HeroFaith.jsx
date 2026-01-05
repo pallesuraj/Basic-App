@@ -2,7 +2,7 @@
 
 export default function HeroFaith() {
   return (
-    <section className="relative overflow-hidden bg-[#f7f9ff]">
+    <section className="relative overflow-hidden bg-[#ffffff]">
       {/* Background gradient */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-50 via-white to-purple-50" />
 

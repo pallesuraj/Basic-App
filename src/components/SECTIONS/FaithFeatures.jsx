@@ -23,7 +23,7 @@ export default function FaithFeatures() {
   ];
 
   return (
-    <section className="relative overflow-hidden py-28 bg-[#f7f9ff]">
+    <section className="relative overflow-hidden py-28 bg-[#ffffff]">
       {/* FULL background wash (this was missing) */}
       <div className="absolute inset-0 bg-gradient-to-b from-blue-50/60 via-white to-blue-50/40 pointer-events-none" />
 

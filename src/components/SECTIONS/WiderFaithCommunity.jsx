@@ -20,7 +20,7 @@ export default function WiderFaithCommunity() {
   ];
 
   return (
-    <section className="relative bg-[#f7f9ff] py-20 overflow-hidden">
+    <section className="relative bg-[#ffffff] py-20 overflow-hidden">
       {/* Soft background glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-50/40 to-transparent pointer-events-none" />
 
